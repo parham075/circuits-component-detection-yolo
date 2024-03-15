@@ -1,0 +1,84 @@
+net.optimized_memory = 0 
+mini_batch = 1, batch = 8, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 480 K-images (7 Kilo-batches_64) 
+
+ calculation mAP (mean average precision)...
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+
+ detections_count = 5001, unique_truth_count = 1261  
+ rank = 0 of ranks = 5001  rank = 100 of ranks = 5001  rank = 200 of ranks = 5001  rank = 300 of ranks = 5001  rank = 400 of ranks = 5001  rank = 500 of ranks = 5001  rank = 600 of ranks = 5001  rank = 700 of ranks = 5001  rank = 800 of ranks = 5001  rank = 900 of ranks = 5001  rank = 1000 of ranks = 5001  rank = 1100 of ranks = 5001  rank = 1200 of ranks = 5001  rank = 1300 of ranks = 5001  rank = 1400 of ranks = 5001  rank = 1500 of ranks = 5001  rank = 1600 of ranks = 5001  rank = 1700 of ranks = 5001  rank = 1800 of ranks = 5001  rank = 1900 of ranks = 5001  rank = 2000 of ranks = 5001  rank = 2100 of ranks = 5001  rank = 2200 of ranks = 5001  rank = 2300 of ranks = 5001  rank = 2400 of ranks = 5001  rank = 2500 of ranks = 5001  rank = 2600 of ranks = 5001  rank = 2700 of ranks = 5001  rank = 2800 of ranks = 5001  rank = 2900 of ranks = 5001  rank = 3000 of ranks = 5001  rank = 3100 of ranks = 5001  rank = 3200 of ranks = 5001  rank = 3300 of ranks = 5001  rank = 3400 of ranks = 5001  rank = 3500 of ranks = 5001  rank = 3600 of ranks = 5001  rank = 3700 of ranks = 5001  rank = 3800 of ranks = 5001  rank = 3900 of ranks = 5001  rank = 4000 of ranks = 5001  rank = 4100 of ranks = 5001  rank = 4200 of ranks = 5001  rank = 4300 of ranks = 5001  rank = 4400 of ranks = 5001  rank = 4500 of ranks = 5001  rank = 4600 of ranks = 5001  rank = 4700 of ranks = 5001  rank = 4800 of ranks = 5001  rank = 4900 of ranks = 5001  rank = 5000 of ranks = 5001 class_id = 0, name = C00, ap = 98.72%   	 (TP = 30, FP = 26) 
+class_id = 1, name = C01, ap = 97.43%   	 (TP = 25, FP = 30) 
+class_id = 2, name = C02, ap = 98.36%   	 (TP = 21, FP = 15) 
+class_id = 3, name = C03, ap = 54.51%   	 (TP = 19, FP = 32) 
+class_id = 4, name = C04, ap = 45.18%   	 (TP = 20, FP = 35) 
+class_id = 5, name = C05, ap = 99.07%   	 (TP = 24, FP = 23) 
+class_id = 6, name = C06, ap = 100.00%   	 (TP = 19, FP = 0) 
+class_id = 7, name = C07, ap = 100.00%   	 (TP = 27, FP = 17) 
+class_id = 8, name = C08, ap = 91.01%   	 (TP = 20, FP = 23) 
+class_id = 9, name = C09, ap = 96.14%   	 (TP = 23, FP = 9) 
+class_id = 10, name = C10, ap = 100.00%   	 (TP = 23, FP = 11) 
+class_id = 11, name = C11, ap = 99.41%   	 (TP = 22, FP = 40) 
+class_id = 12, name = C12, ap = 98.41%   	 (TP = 23, FP = 6) 
+class_id = 13, name = C13, ap = 100.00%   	 (TP = 24, FP = 27) 
+class_id = 14, name = C14, ap = 100.00%   	 (TP = 24, FP = 7) 
+class_id = 15, name = C15, ap = 100.00%   	 (TP = 24, FP = 7) 
+class_id = 16, name = C16, ap = 100.00%   	 (TP = 20, FP = 2) 
+class_id = 17, name = C17, ap = 100.00%   	 (TP = 20, FP = 7) 
+class_id = 18, name = C18, ap = 98.44%   	 (TP = 22, FP = 26) 
+class_id = 19, name = C19, ap = 100.00%   	 (TP = 20, FP = 22) 
+class_id = 20, name = C20, ap = 45.40%   	 (TP = 15, FP = 15) 
+class_id = 21, name = C21, ap = 99.02%   	 (TP = 24, FP = 29) 
+class_id = 22, name = C22, ap = 98.72%   	 (TP = 23, FP = 24) 
+class_id = 23, name = C23, ap = 76.60%   	 (TP = 20, FP = 29) 
+class_id = 24, name = C24, ap = 87.69%   	 (TP = 16, FP = 17) 
+class_id = 25, name = C25, ap = 94.97%   	 (TP = 23, FP = 35) 
+class_id = 26, name = C26, ap = 92.89%   	 (TP = 22, FP = 28) 
+class_id = 27, name = C27, ap = 97.71%   	 (TP = 23, FP = 30) 
+class_id = 28, name = C28, ap = 94.52%   	 (TP = 23, FP = 34) 
+class_id = 29, name = C29, ap = 94.17%   	 (TP = 23, FP = 29) 
+class_id = 30, name = C30, ap = 78.43%   	 (TP = 24, FP = 31) 
+class_id = 31, name = C31, ap = 92.58%   	 (TP = 23, FP = 30) 
+class_id = 32, name = C32, ap = 90.03%   	 (TP = 22, FP = 30) 
+class_id = 33, name = C33, ap = 91.91%   	 (TP = 20, FP = 20) 
+class_id = 34, name = C34, ap = 98.64%   	 (TP = 20, FP = 22) 
+class_id = 35, name = C35, ap = 99.47%   	 (TP = 19, FP = 18) 
+class_id = 36, name = C36, ap = 88.70%   	 (TP = 21, FP = 27) 
+class_id = 37, name = C37, ap = 97.53%   	 (TP = 20, FP = 17) 
+class_id = 38, name = C38, ap = 90.87%   	 (TP = 23, FP = 19) 
+class_id = 39, name = C39, ap = 95.71%   	 (TP = 21, FP = 22) 
+class_id = 40, name = C40, ap = 95.85%   	 (TP = 24, FP = 33) 
+class_id = 41, name = C41, ap = 72.49%   	 (TP = 19, FP = 32) 
+class_id = 42, name = C42, ap = 100.00%   	 (TP = 20, FP = 24) 
+class_id = 43, name = C43, ap = 93.69%   	 (TP = 19, FP = 21) 
+class_id = 44, name = C44, ap = 99.04%   	 (TP = 22, FP = 24) 
+class_id = 45, name = C45, ap = 77.72%   	 (TP = 19, FP = 24) 
+class_id = 46, name = C46, ap = 84.05%   	 (TP = 22, FP = 29) 
+class_id = 47, name = C47, ap = 97.45%   	 (TP = 22, FP = 31) 
+class_id = 48, name = C48, ap = 99.60%   	 (TP = 22, FP = 21) 
+class_id = 49, name = C49, ap = 99.22%   	 (TP = 23, FP = 23) 
+class_id = 50, name = C50, ap = 98.21%   	 (TP = 22, FP = 24) 
+class_id = 51, name = C51, ap = 98.00%   	 (TP = 29, FP = 37) 
+class_id = 52, name = C52, ap = 96.09%   	 (TP = 23, FP = 22) 
+class_id = 53, name = C53, ap = 98.81%   	 (TP = 20, FP = 20) 
+class_id = 54, name = C54, ap = 100.00%   	 (TP = 20, FP = 22) 
+class_id = 55, name = C55, ap = 94.64%   	 (TP = 20, FP = 23) 
+class_id = 56, name = C56, ap = 100.00%   	 (TP = 20, FP = 6) 
+
+ for conf_thresh = 0.25, precision = 0.49, recall = 0.98, F1-score = 0.66 
+ for conf_thresh = 0.25, TP = 1241, FP = 1287, FN = 20, average IoU = 41.12 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.927569, or 92.76 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset

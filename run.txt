@@ -1,0 +1,25 @@
+Steps:
+conda activate YOLO
+cd darknet
+darknet.exe
+darknet.exe detector train ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_last.weights -dont_show -map
+evaluation:
+darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_10000.weights
+darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_20000.weights
+darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_30000.weights
+darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_40000.weights
+darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_50000.weights
+darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_60000.weights
+
+
+srun --gres=gpu:1 --mem=32338 -p gpu-all --pty bash -i
+source ~/.bashrc
+udocker pull neverleave0916/yolo_v4
+udocker create --name=yolotrain neverleave0916/yolo_v4
+udocker run  yolotrain    --volume=/home/pmembari/projects/sdp_classifier:/prj  /bin/bash -i 
+./darknet detector train /prj/dataset/labelled_dataa.data /prj/darknet/cfg/yolov4-custom.cfg /prj/Outputs/backup/yolov4-custom_last.weights -dont_show -map
+
+
+
+scp -r C:\Users\ffriz\Desktop\yolov3-main-dataset\dataset diclub:/home/sfrizzostefenon/gnn_ruled/saved_rfi_yolo_files/dataset_rfi_full
+scp C:\Users\ffriz\Desktop\yoloc\yolov5\data\rfi_full.yaml diclub:/home/sfrizzostefenon/gnn_ruled/saved_rfi_yolo_files/yolov5/data

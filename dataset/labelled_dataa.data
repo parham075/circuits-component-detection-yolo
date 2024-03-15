@@ -1,0 +1,5 @@
+classes = 57
+train = C:\Users\ASUS\Desktop\yolov4\sdp_classifier\dataset\train.txt
+valid = C:\Users\ASUS\Desktop\yolov4\sdp_classifier\dataset\test.txt
+names = C:\Users\ASUS\Desktop\yolov4\sdp_classifier\dataset\classes.names
+backup = C:\Users\ASUS\Desktop\yolov4\sdp_classifier\Outputs\backup
