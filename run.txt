@@ -11,7 +11,7 @@ darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg 
 darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_50000.weights
 darknet.exe detector map ../dataset/labelled_dataa.data ./cfg/yolov4-custom.cfg ../Outputs/backup/yolov4-custom_60000.weights
 
-
+codes for cluster:
 srun --gres=gpu:1 --mem=32338 -p gpu-all --pty bash -i
 source ~/.bashrc
 udocker pull neverleave0916/yolo_v4
